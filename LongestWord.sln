@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestWordTest", "LongestW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestWord", "LongestWord\LongestWord.csproj", "{5754ED00-0856-4F56-AFCC-047AEC877A2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestWordConsole", "LongestWordConsole\LongestWordConsole.csproj", "{EACF8DF8-9328-4703-B64B-E132798936A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5754ED00-0856-4F56-AFCC-047AEC877A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5754ED00-0856-4F56-AFCC-047AEC877A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5754ED00-0856-4F56-AFCC-047AEC877A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EACF8DF8-9328-4703-B64B-E132798936A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACF8DF8-9328-4703-B64B-E132798936A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACF8DF8-9328-4703-B64B-E132798936A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACF8DF8-9328-4703-B64B-E132798936A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

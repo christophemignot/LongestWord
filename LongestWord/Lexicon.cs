@@ -92,7 +92,8 @@
             var maxLength = result.Max(s => s.Length);
             return result
                 .Where(chaine => chaine.Length == maxLength)
-                .Distinct().ToList();
+                .Distinct()
+                .ToList();
             
         }
 

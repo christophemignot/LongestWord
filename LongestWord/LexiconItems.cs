@@ -4,8 +4,7 @@
 
     public class LexiconItems
     {
-        public char Letter;
         public ICollection<string> Words = new List<string>();
-        public Dictionary<char, LexiconItems> LongerWords = new Dictionary<char, LexiconItems>();
+        public IDictionary<char, LexiconItems> LongerWords = new Dictionary<char, LexiconItems>();
     }
 }

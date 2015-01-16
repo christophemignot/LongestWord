@@ -27,7 +27,7 @@
         [TestMethod]
         public void WhenSatabFindFourResults()
         {
-            var result = lexicon.GetLongestWord("SATAB".ToCharArray());
+            var result = lexicon.GetLongestWord("SATAB");
             Assert.IsNotNull(result);
             Assert.AreEqual(4, result.Count());
         }
@@ -49,5 +49,23 @@
             Assert.IsTrue(result.Any(m => m == "CABOTAS"), "CABOTAS n'a pas été trouvé");
             Assert.IsTrue(result.Any(m => m == "ABACOST"), "ABACOST n'a pas été trouvé");
         }
+
+        [TestMethod]
+        public void WhenAHashFindTwoResults()
+        {
+            var result = lexicon.GetLongestWord("TU#U");
+            Assert.IsNotNull(result);
+            Assert.AreEqual(2, result.Count());
+        }
+
+        [TestMethod]
+        public void WhenTwoHashFindHundredAndEightyEightResults()
+        {
+            var result = lexicon.GetLongestWord("T#I#STE");
+            Assert.IsNotNull(result);
+            Assert.AreEqual(139, result.Count());
+        }
+
+
     }
 }
